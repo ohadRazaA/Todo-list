@@ -8,7 +8,7 @@ function TodoList() {
   const [mainArr, setMainArr] = useState([]);
   const [inpVal, setInpVal] = useState("");
   const [bool, setBool] = useState(false);
-  const url = "http://localhost:5000/";
+  const url = "https://todo-list-alpha-rose-71.vercel.app/";
 
   useEffect(() => {
     axios.get(url)
